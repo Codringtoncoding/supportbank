@@ -11,16 +11,16 @@ namespace supportbank
         }
     }
 
-    class Employee
+    public class Employee
     {
 
     }
 
-    class CSVreader
+    public class CSVreader
     {
 
     }
-    class Transaction
+    public class Transaction
     {
         
     }
