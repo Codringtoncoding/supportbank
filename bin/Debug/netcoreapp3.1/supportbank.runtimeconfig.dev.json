@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/Humphrey.Codringtonzoopla.co.uk/.dotnet/store/|arch|/|tfm|",
+      "/Users/Humphrey.Codringtonzoopla.co.uk/.nuget/packages"
+    ]
+  }
+}

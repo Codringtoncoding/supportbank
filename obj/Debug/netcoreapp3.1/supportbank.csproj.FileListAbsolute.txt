@@ -1,0 +1,12 @@
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/supportbank.deps.json
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/supportbank.runtimeconfig.json
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/supportbank.runtimeconfig.dev.json
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/supportbank.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/supportbank.pdb
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.csprojAssemblyReference.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.AssemblyInfoInputs.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.AssemblyInfo.cs
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.csproj.CoreCompileInputs.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.pdb
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.genruntimeconfig.cache
