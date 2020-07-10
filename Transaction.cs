@@ -11,6 +11,11 @@ namespace supportbank
 
         public string narrative;
         public decimal amount;
+
+        public Transaction(DateTime date)
+        {
+           this.date = date; 
+        }
     }
         
         

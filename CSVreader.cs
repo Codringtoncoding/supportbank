@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace supportbank
 {
@@ -20,13 +21,14 @@ namespace supportbank
                 {
                     var parts = line.Split(",");
 
-                    var date = parts[0];
+                    var date = DateTime.Parse(parts[0],new CultureInfo("en-GB"));
                     var from = parts[1];
                     var to = parts[2];
                     var narrative = parts[3];
                     var amount = parts[4];
-                    
-                    Console.WriteLine(from + amount);
+                    var mytransaction = new Transaction(date);
+                    transactions.Add(mytransaction);
+                    Console.WriteLine(from);
                 }
 
                 return transactions;
