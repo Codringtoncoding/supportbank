@@ -25,8 +25,8 @@ namespace supportbank
                     var from = parts[1];
                     var to = parts[2];
                     var narrative = parts[3];
-                    var amount = parts[4];
-                    var mytransaction = new Transaction(date);
+                    var amount = Convert.ToDecimal(parts[4]);
+                    var mytransaction = new Transaction(date,to,from,narrative,amount);
                     transactions.Add(mytransaction);
                     Console.WriteLine(date + from);
                 }

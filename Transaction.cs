@@ -20,7 +20,7 @@ namespace supportbank
            this.narrative = narrative;
            this.amount = amount;
         }
-     
+    
     }
         
         
