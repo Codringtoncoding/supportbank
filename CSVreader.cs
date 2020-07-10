@@ -28,7 +28,7 @@ namespace supportbank
                     var amount = parts[4];
                     var mytransaction = new Transaction(date);
                     transactions.Add(mytransaction);
-                    Console.WriteLine(from);
+                    Console.WriteLine(date + from);
                 }
 
                 return transactions;

@@ -12,10 +12,15 @@ namespace supportbank
         public string narrative;
         public decimal amount;
 
-        public Transaction(DateTime date)
+        public Transaction(DateTime date,string to,string from,string narrative, decimal amount)
         {
            this.date = date; 
+           this.to = to;
+           this.from = from;
+           this.narrative = narrative;
+           this.amount = amount;
         }
+     
     }
         
         
