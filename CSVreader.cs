@@ -1,7 +1,8 @@
 using System.Data;
 using System;
 using System.IO;
-
+using System.Linq;
+using System.Collections.Generic;
 
 namespace supportbank
 {
@@ -9,17 +10,26 @@ namespace supportbank
     public class CSVreader
 
     {
-        static void Main(string[] args)
+        public static List<Transaction> ReadTransactionsFromfile()
             {
-                String csv = File.ReadAllText("Transactions2014.csv");
-                    Console.WriteLine(csv);
-    
+                var transactions = new List<Transaction>();
+
+                var csv = File.ReadAllLines("Transactions2014.csv").Skip(1);
+
+                foreach (var line in csv)
+                {
+                    var parts = line.Split(",");
+
+                    var date = parts[0];
+                    var from = parts[1];
+                    var to = parts[2];
+                    var narrative = parts[3];
+                    var amount = parts[4];
+                    
+                    Console.WriteLine(from + amount);
+                }
+
+                return transactions;
             }
-        
-        public static int add(int value1,int value2)
-        {
-            return value1 + value2;
-        }
-        
     }
 }
