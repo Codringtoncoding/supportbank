@@ -1,7 +1,4 @@
 using System;
-using System.Data;
-using System.IO;
-using System.Linq;
 using System.Collections.Generic;
 
 namespace supportbank
@@ -11,32 +8,51 @@ namespace supportbank
     {
         public string Name;
 
-        public List<Transaction> Owed;
+        public List<Transaction> incomingTransactions;
 
-        public List<Transaction> Owe;
+        public List<Transaction> outgoingTransations;
 
         public Account(string name)
         {
-            Name = name;
-            Owed = new List<Transaction>();
-            Owe = new List<Transaction>();
+            this.Name = name;
+            incomingTransactions = new List<Transaction>();
+            outgoingTransations = new List<Transaction>();
+        }
+
+        public decimal GetTotalIncoming()
+        {
+            var total = new decimal(0);
+
+            foreach (var Transaction in incomingTransactions)
+            {
+                total = total + Transaction.amount;
+            }
+
+            return total;
+        }
+
+        public decimal GetTotalOutgoing()
+        {
+            var total = new decimal(0);
+
+            foreach (var Transaction in outgoingTransations)
+            {
+                total = total + Transaction.amount;
+
+            }
+            return total;
 
         }
+
+        
         public decimal GetTotalAmount()
         {
-            var totalOwed = new Decimal(0);
-            foreach(var currentOwedTransaction in Owed)
-            {
-                totalOwed = totalOwed + currentOwedTransaction.amount;
-            }
-            foreach(var currentOweTransaction in Owe)
-            {
-                totalOwed = totalOwed - currentOweTransaction.amount;
-            }
-
-            return totalOwed;
+            return GetTotalOutgoing() - GetTotalIncoming();
             
-            }
+        }
+
+
     }
+
 
 }
