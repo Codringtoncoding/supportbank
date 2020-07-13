@@ -43,6 +43,12 @@ namespace supportbank
 
             return allNames;
         }
+
+        static void GetTotalAmount()
+        {
+            var totalamounts  new 
+
+        }
     }
 
 }
