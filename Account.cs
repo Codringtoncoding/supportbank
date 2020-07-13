@@ -10,13 +10,13 @@ namespace supportbank
 
         public List<Transaction> incomingTransactions;
 
-        public List<Transaction> outgoingTransations;
+        public List<Transaction> outgoingTransactions;
 
         public Account(string name)
         {
             this.Name = name;
             incomingTransactions = new List<Transaction>();
-            outgoingTransations = new List<Transaction>();
+            outgoingTransactions = new List<Transaction>();
         }
 
         public decimal GetTotalIncoming()
@@ -35,7 +35,7 @@ namespace supportbank
         {
             var total = new decimal(0);
 
-            foreach (var Transaction in outgoingTransations)
+            foreach (var Transaction in outgoingTransactions)
             {
                 total = total + Transaction.amount;
 

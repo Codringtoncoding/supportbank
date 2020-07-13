@@ -8,12 +8,24 @@ namespace supportbank
         static void Main(string[] args)
         {
            var transactions = CSVreader.ReadTransactionsFromfile();
-           Console.WriteLine(transactions);
+       
 
 
            var accounts = Bank.GetAccounts(transactions);
+           
+               foreach (var account in accounts)
+               {
+            
+                 
 
-           Console.WriteLine(accounts);
+               }
+
+           var UpdatedAccounts = Bank.UpdatedAccounts(transactions, accounts);
+
+           Console.WriteLine(UpdatedAccounts);
+                
+
+       
 
         }     
      

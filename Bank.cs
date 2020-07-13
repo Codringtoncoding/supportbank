@@ -31,5 +31,44 @@ namespace supportbank
 
             return allNames;
         }
+
+        public static List<Account> UpdatedAccounts(List<Transaction> transactions, List<Account> accounts)
+        {
+            foreach(var transaction in transactions)
+            {
+                var account = findAccount(transaction.from, accounts);
+                account.outgoingTransactions.Add(transaction);
+                
+
+            }
+
+            foreach(var transaction in transactions)
+            {
+                var account = findAccount(transaction.to, accounts);
+                account.incomingTransactions.Add(transaction);
+            }
+
+            return accounts;
+        }
+
+        public static Account findAccount(string name, List<Account> accounts)
+        {
+            foreach(var account in accounts)
+            {
+            if (name == account.Name)
+                {   
+                
+                    return account;
+                
+                }
+            
+            }
+
+            return null;
+
+        }
+    
+    
+        
     }
 }
