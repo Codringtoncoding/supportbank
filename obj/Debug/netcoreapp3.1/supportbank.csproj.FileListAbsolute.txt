@@ -10,3 +10,9 @@
 /Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.dll
 /Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.pdb
 /Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.genruntimeconfig.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/FluentAssertions.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/NLog.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/obj/Debug/netcoreapp3.1/supportbank.csproj.CopyComplete

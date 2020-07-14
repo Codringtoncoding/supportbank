@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JB+bb3RPR3ZxnIxqq0nLskLiNdDc9tt1HahgOBwpt0EaISOsCl3i6XsmTbmZDX+/sNmB6eKmb6BT1FSxeH1lUw==",
+  "dgSpecHash": "Ko97i29fqg9Zz4kskHDSu2D7Nw3/DPXOFVVxzJbtRINlC9VQWtbszcCknJsCrl9DsSUvsqjaJ/HCfXefsQY9AA==",
   "success": true,
   "projectFilePath": "/Users/Humphrey.Codringtonzoopla.co.uk/supportbank/supportbank.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/Humphrey.Codringtonzoopla.co.uk/.nuget/packages/fluentassertions/5.10.3/fluentassertions.5.10.3.nupkg.sha512",
+    "/Users/Humphrey.Codringtonzoopla.co.uk/.nuget/packages/nlog/4.7.2/nlog.4.7.2.nupkg.sha512",
+    "/Users/Humphrey.Codringtonzoopla.co.uk/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "/Users/Humphrey.Codringtonzoopla.co.uk/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
